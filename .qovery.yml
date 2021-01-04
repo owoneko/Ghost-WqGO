@@ -1,0 +1,15 @@
+application:
+  name: ghost
+  project: CHANGEME
+  organization: CHANGEME
+  storage:
+  - name: ghost-data
+    type: ssd
+    size: 5GB
+    mount_point: /var/lib/ghost/content
+routers:
+- name: ghost-router
+  routes:
+  - application_name: ghost
+    paths:
+    - "/"
