@@ -10,6 +10,9 @@ application:
     mount_point: "/var/lib/ghost/content"
 routers:
 - name: "ghost-router"
+custom_domains:
+  - branch: master
+    domain: www.moeyy.tech
   routes:
   - application_name: "ghost"
     paths:
