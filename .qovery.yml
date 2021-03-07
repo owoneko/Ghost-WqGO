@@ -9,6 +9,8 @@ databases:
   version: "5.7"
 routers:
 - name: "main-moebest"
+- branch: main
+    domain: www.moeyy.tech
   routes:
   - application_name: "moebest"
     paths:
