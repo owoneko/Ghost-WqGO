@@ -11,7 +11,7 @@ application:
 routers:
 - name: "ghost-router"
 custom_domains:
-  - branch: master
+  - branch: main
     domain: www.moeyy.tech
   routes:
   - application_name: "ghost"
