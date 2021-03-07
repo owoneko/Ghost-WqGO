@@ -1,6 +1,6 @@
 ---
 application:
-  name: "moebest"
+  name: "ghost"
   project: "moebest"
   organization: "QoveryCommunity"
 databases:
