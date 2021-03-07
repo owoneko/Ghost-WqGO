@@ -1,20 +1,15 @@
 ---
 application:
-  name: "ghost"
+  name: "moebest"
   project: "moe‘s space"
-  publicly_accessible："true"
   organization: "QoveryCommunity"
-  storage:
-  - name: "ghost-data"
-    size: "5GB"
-    type: "ssd"
-    mount_point: "/var/lib/ghost/content"
+databases:
+- type: "MYSQL"
+  name: "moebest"
+  version: "5.7"
 routers:
-- name: "ghost-router"
-custom_domains:
-  - branch: main
-    domain: www.moeyy.tech
+- name: "main-moebest"
   routes:
-  - application_name: "ghost"
+  - application_name: "moebest"
     paths:
-    - "/"
+    - "/*"
