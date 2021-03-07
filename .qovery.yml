@@ -2,6 +2,7 @@
 application:
   name: "ghost"
   project: "moe‘s space"
+  publicly_accessible："true"
   organization: "QoveryCommunity"
   storage:
   - name: "ghost-data"
